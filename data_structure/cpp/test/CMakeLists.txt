@@ -1,12 +1,14 @@
 add_executable(
   unit_tests
   array_test.cpp
+  linked_list_test.cpp
 )
 
 target_link_libraries(
   unit_tests
   gtest_main
   array
+  linked_list
 )
 
 add_test(
