@@ -1,12 +1,12 @@
 add_executable(
   unit_tests
-  demo_test.cpp
+  array_test.cpp
 )
 
 target_link_libraries(
   unit_tests
   gtest_main
-  demo
+  array
 )
 
 add_test(
